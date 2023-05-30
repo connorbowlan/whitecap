@@ -1,5 +1,3 @@
-//creating layout and importing
-
 import styles from "./style";
 
 import {
