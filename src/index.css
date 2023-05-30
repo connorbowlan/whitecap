@@ -39,7 +39,8 @@ body {
 }
 
 .hero-1 {
-  background: url('/img/hero/wheat-fields.jpg');
+  background: url("/img/hero/wheat-fields.jpg");
+  filter: brightness(50%);
   background-size: cover;
   height: 300px;
 }
