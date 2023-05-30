@@ -1,7 +1,7 @@
 //All the static text shown on the website
 
 
-// import { people01, people02, people03, facebook, instagram, linkedin, twitter, } from "../assets";
+import { facebook, instagram, linkedin, twitter, } from "../assets";
 
 export const navLinks = [
   {
@@ -25,21 +25,21 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
+    // icon: star,
     title: "sample",
     content:
       "sample",
   },
   {
     id: "feature-2",
-    icon: shield,
+    // icon: shield,
     title: "sample",
     content:
       "sample",
   },
   {
     id: "feature-3",
-    icon: send,
+    // icon: send,
     title: "sample",
     content:
       "sample",
@@ -53,7 +53,6 @@ export const feedback = [
       "sample",
     name: "sample",
     title: "sample",
-    img: people01,
   },
   {
     id: "feedback-2",
@@ -61,7 +60,6 @@ export const feedback = [
       "sample",
     name: "sample",
     title: "sample",
-    img: people02,
   },
   {
     id: "feedback-3",
@@ -69,7 +67,6 @@ export const feedback = [
       "sample",
     name: "sample",
     title: "sample",
-    img: people03,
   },
 ];
 
