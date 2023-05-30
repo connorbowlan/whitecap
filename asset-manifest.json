@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/whitecap/static/css/main.445d59c6.css",
+    "main.js": "/whitecap/static/js/main.41270508.js",
+    "static/media/wheat-fields.jpg": "/whitecap/static/media/wheat-fields.bc37a11728874efc39e9.jpg",
+    "static/media/logo.png": "/whitecap/static/media/logo.973913dbc96293a0d211.png",
+    "index.html": "/whitecap/index.html",
+    "main.445d59c6.css.map": "/whitecap/static/css/main.445d59c6.css.map",
+    "main.41270508.js.map": "/whitecap/static/js/main.41270508.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.445d59c6.css",
+    "static/js/main.41270508.js"
+  ]
+}
