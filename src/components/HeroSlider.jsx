@@ -1,7 +1,8 @@
-import React from "react";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
+import React from "react";
+import Slider from "react-slick";
 
 function HeroSlider() {
   const sliderSettings = {
@@ -23,7 +24,7 @@ function HeroSlider() {
               Reliable Natural Gas Supply
             </h1>
             <p className="text-lg mb-8 font-bold bg-white bg-opacity-80 py-4 px-6 rounded">
-              At Whitecap, we pride ourselves on delivering a reliable and consistent supply of natural gas. Our extensive network ensures that businesses and households can depend on us to meet their energy needs.
+              At WhiteCap, we pride ourselves on delivering a reliable and consistent supply of natural gas. Our extensive network ensures that businesses and households can depend on us to meet their energy needs.
             </p>
             <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
               Learn More
