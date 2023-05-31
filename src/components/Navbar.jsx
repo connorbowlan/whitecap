@@ -1,4 +1,6 @@
+import NavItem from "./subcomponents/NavItem";
 import logoIcon from "../img/logo-icon.png";
+import { navItems } from "../assets/constants";
 
 function Navbar() {
   return (
@@ -8,26 +10,9 @@ function Navbar() {
           <img className="h-10" src={logoIcon} alt="WhiteCap Energy Logo" />
         </div>
         <ul className="flex space-x-4">
-          <li>
-            <a className="text-white hover:text-gray-300" href="#">
-              Home
-            </a>
-          </li>
-          <li>
-            <a className="text-white hover:text-gray-300" href="#">
-              About
-            </a>
-          </li>
-          <li>
-            <a className="text-white hover:text-gray-300" href="#">
-              Services
-            </a>
-          </li>
-          <li>
-            <a className="text-white hover:text-gray-300" href="#">
-              Contact
-            </a>
-          </li>
+          {navItems.map((navItem) => (
+            <NavItem path={navItem.path} text={navItem.text} />
+          ))}
         </ul>
       </div>
     </nav>
