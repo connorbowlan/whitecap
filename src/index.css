@@ -12,7 +12,7 @@ body {
 
 .hero-1 {
   background: url("../src/img/hero/wheat-fields.jpg");
-  filter: brightness(120%);
+  filter: brightness(100%);
   background-size: cover;
   background-position: center;
 }

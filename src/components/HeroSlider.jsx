@@ -19,7 +19,7 @@ function HeroSlider() {
       <Slider {...sliderSettings}>
         <div className="text-dark py-20 hero-1 shadow-md">
           <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gray-500 bg-opacity-50 py-2 px-4 rounded">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gray-500 bg-opacity-50 py-2 px-4 rounded text-blue-800">
               Reliable Natural Gas Supply
             </h1>
             <p className="text-lg mb-8 font-bold bg-white bg-opacity-80 py-4 px-6 rounded">
@@ -33,7 +33,7 @@ function HeroSlider() {
 
         <div className="text-dark py-20 hero-2 bg-gray-800 shadow-md">
           <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gray-500 bg-opacity-50 py-2 px-4 rounded">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gray-500 bg-opacity-50 py-2 px-4 rounded text-green-900">
               Sustainable Energy Solution
             </h1>
             <p className="text-lg mb-8 font-bold bg-white bg-opacity-80 py-4 px-6 rounded">
@@ -47,7 +47,7 @@ function HeroSlider() {
 
         <div className="text-dark py-20 hero-3 bg-gray-800 shadow-md">
           <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gray-500 bg-opacity-50 py-2 px-4 rounded">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gray-500 bg-opacity-50 py-2 px-4 rounded text-yellow-400">
               Cost-Effective Energy Source
             </h1>
             <p className="text-lg mb-8 font-bold bg-white bg-opacity-80 py-4 px-6 rounded">
@@ -61,7 +61,7 @@ function HeroSlider() {
 
         <div className="text-dark py-20 hero-4 bg-gray-800 shadow-md">
           <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gray-500 bg-opacity-50 py-2 px-4 rounded">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gray-500 bg-opacity-50 py-2 px-4 rounded text-green-200">
               Expert Support and Services
             </h1>
             <p className="text-lg mb-8 font-bold bg-white bg-opacity-80 py-4 px-6 rounded">
@@ -78,13 +78,3 @@ function HeroSlider() {
 }
 
 export default HeroSlider;
-
-
-
-
-
-
-
-
-
-
