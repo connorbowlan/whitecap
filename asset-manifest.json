@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/whitecap/static/css/main.e3559b6e.css",
-    "main.js": "/whitecap/static/js/main.4836ca8a.js",
+    "main.css": "/whitecap/static/css/main.a2a8ccb6.css",
+    "main.js": "/whitecap/static/js/main.0db2a79f.js",
     "static/media/wheat-fields.jpg": "/whitecap/static/media/wheat-fields.bc37a11728874efc39e9.jpg",
     "static/media/logo-icon.png": "/whitecap/static/media/logo-icon.3d8fb8318a5937b83c0a.png",
+    "static/media/field.jpg": "/whitecap/static/media/field.b70beb35d3982c78d628.jpg",
+    "static/media/grass.jpg": "/whitecap/static/media/grass.f8abc9bd92c048d62204.jpg",
+    "static/media/field2.jpg": "/whitecap/static/media/field2.c8fcdfc411b79143d1e5.jpg",
     "static/media/slick.svg": "/whitecap/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/whitecap/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/whitecap/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/whitecap/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/whitecap/index.html",
-    "main.e3559b6e.css.map": "/whitecap/static/css/main.e3559b6e.css.map",
-    "main.4836ca8a.js.map": "/whitecap/static/js/main.4836ca8a.js.map"
+    "main.a2a8ccb6.css.map": "/whitecap/static/css/main.a2a8ccb6.css.map",
+    "main.0db2a79f.js.map": "/whitecap/static/js/main.0db2a79f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3559b6e.css",
-    "static/js/main.4836ca8a.js"
+    "static/css/main.a2a8ccb6.css",
+    "static/js/main.0db2a79f.js"
   ]
 }
