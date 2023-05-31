@@ -1,3 +1,4 @@
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -8,7 +9,7 @@ function HeroSlider() {
     dots: true,
     infinite: true,
     pauseOnHover: true,
-    speed: 1000,
+    speed: 200,
     slidesToShow: 1,
     slidesToScroll: 1
   };
@@ -16,12 +17,13 @@ function HeroSlider() {
   return (
     <div className="mb-8">
       <Slider {...sliderSettings}>
-        <div className="text-white py-20 hero-1">
+        <div className="text-dark py-20 hero-1 shadow-md">
           <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">Slide 1</h1>
-            <p className="text-lg mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              quis sagittis massa, at sodales est.
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gray-500 bg-opacity-50 py-2 px-4 rounded">
+              Reliable Natural Gas Supply
+            </h1>
+            <p className="text-lg mb-8 font-bold bg-white bg-opacity-80 py-4 px-6 rounded">
+              At Whitecap, we pride ourselves on delivering a reliable and consistent supply of natural gas. Our extensive network ensures that businesses and households can depend on us to meet their energy needs.
             </p>
             <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
               Learn More
@@ -29,12 +31,13 @@ function HeroSlider() {
           </div>
         </div>
 
-        <div className="bg-gray-800 text-white py-20">
+        <div className="text-dark py-20 hero-2 bg-gray-800 shadow-md">
           <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">Slide 2</h1>
-            <p className="text-lg mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              quis sagittis massa, at sodales est.
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gray-500 bg-opacity-50 py-2 px-4 rounded">
+              Sustainable Energy Solution
+            </h1>
+            <p className="text-lg mb-8 font-bold bg-white bg-opacity-80 py-4 px-6 rounded">
+              As a leading provider of natural gas, we are committed to promoting sustainable energy solutions. Natural gas is a cleaner alternative to other fossil fuels, reducing carbon emissions and contributing to a greener future.
             </p>
             <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
               Learn More
@@ -42,12 +45,13 @@ function HeroSlider() {
           </div>
         </div>
 
-        <div className="bg-gray-800 text-white py-20">
+        <div className="text-dark py-20 hero-3 bg-gray-800 shadow-md">
           <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">Slide 3</h1>
-            <p className="text-lg mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              quis sagittis massa, at sodales est.
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gray-500 bg-opacity-50 py-2 px-4 rounded">
+              Cost-Effective Energy Source
+            </h1>
+            <p className="text-lg mb-8 font-bold bg-white bg-opacity-80 py-4 px-6 rounded">
+              Choosing natural gas as your energy source offers cost savings and efficiency. With our competitive pricing and efficient distribution, we help businesses and households optimize their energy expenses without compromising quality.
             </p>
             <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
               Learn More
@@ -55,12 +59,13 @@ function HeroSlider() {
           </div>
         </div>
 
-        <div className="bg-gray-800 text-white py-20">
+        <div className="text-dark py-20 hero-4 bg-gray-800 shadow-md">
           <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">Slide 4</h1>
-            <p className="text-lg mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              quis sagittis massa, at sodales est.
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gray-500 bg-opacity-50 py-2 px-4 rounded">
+              Expert Support and Services
+            </h1>
+            <p className="text-lg mb-8 font-bold bg-white bg-opacity-80 py-4 px-6 rounded">
+              Our team of experts is dedicated to providing exceptional customer support and services. From personalized energy consultations to timely maintenance, we ensure a seamless experience for our valued customers.
             </p>
             <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
               Learn More
@@ -73,3 +78,13 @@ function HeroSlider() {
 }
 
 export default HeroSlider;
+
+
+
+
+
+
+
+
+
+

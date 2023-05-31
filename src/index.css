@@ -12,6 +12,29 @@ body {
 
 .hero-1 {
   background: url("../src/img/hero/wheat-fields.jpg");
-  filter: brightness(50%);
+  filter: brightness(120%);
   background-size: cover;
+  background-position: center;
 }
+
+.hero-2 {
+  background: url("../src/img/hero/field.jpg");
+  filter: brightness(100%);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-3 {
+  background: url("../src/img/hero/field2.jpg");
+  filter: brightness(90%);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-4 {
+  background: url("../src/img/hero/grass.jpg");
+  filter: brightness(90%);
+  background-size: cover;
+  background-position: center;
+}
+
