@@ -2,7 +2,7 @@ function Feature(props) {
   const shortenedContent = props.content.substr(0, 250);
 
   return (
-    <div className="flex flex-col items-center justify-center p-5">
+    <div className="flex flex-col bg-white border-2 border-solid border-gray-100 rounded-lg shadow-lg p-5">
       <svg
         className="w-12 h-12 text-yellow-500"
         fill="none"

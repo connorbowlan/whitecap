@@ -1,20 +1,6 @@
-import Navbar from "./Navbar";
-import Business from "./Business";
-import Clients from "./Clients";
-import Stats from "./Stats";
+import Feature from "./Feature";
 import Footer from "./Footer";
-import Testimonials from "./Testimonials";
-import Hero from "./Hero";
-import Logo from "./Logo";
+import HeroSlider from "./HeroSlider";
+import Navbar from "./Navbar";
 
-export {
-  Logo,
-  Navbar,
-  Business,
-  Clients,
-  Stats,
-  Footer,
-  Testimonials,
-  Hero,
-};
-
+export { Feature, Footer, HeroSlider, Navbar };

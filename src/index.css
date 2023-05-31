@@ -18,31 +18,14 @@
   scroll-behavior: smooth;
 }
 
-/* TODO: 
-
-- Update body to use TailWind.
-- Update class logo to use TailWind for sizing if possible
-
-*/
 body {
-  background: #d9d9d9;
-}
-
-.top {
-  background: #ffffff;
-  border-bottom: 2px solid #d9d9d9;
-}
-
-.top .logo img {
-  width: 50%;
-  height: 50%;
+  background: #f9f9f9;
 }
 
 .hero-1 {
   background: url("../src/img/hero/wheat-fields.jpg");
   filter: brightness(50%);
   background-size: cover;
-  height: 300px;
 }
 
 .text-gradient {
