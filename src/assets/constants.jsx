@@ -12,7 +12,7 @@ const navItems = [
   {
     key: 3,
     path: "/services",
-    text: "Home",
+    text: "Services",
   },
   {
     key: 4,
