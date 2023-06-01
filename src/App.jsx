@@ -2,7 +2,7 @@ import { Features, Footer, HeroSlider, Navbar } from "./components/index";
 
 function App() {
   return (
-    <div className=" w-full overflow-hidden">
+    <div className="w-full overflow-hidden">
       {/* Navbar */}
       <Navbar />
 
@@ -11,7 +11,7 @@ function App() {
 
       {/* Features */}
       <Features />
-
+      
       {/* Footer */}
       <Footer />
     </div>
