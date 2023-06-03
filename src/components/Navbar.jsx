@@ -1,6 +1,8 @@
 import NavItem from "./subcomponents/NavItem";
 import logoIcon from "../img/logo-icon.png";
 import { navItems } from "../assets/constants";
+import React from "react";
+
 
 function Navbar() {
   return (

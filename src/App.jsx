@@ -1,4 +1,5 @@
-import { Features, Footer, HeroSlider, Navbar } from "./components/index";
+import React from "react";
+import { Features, Footer, HeroSlider, Navbar } from "./components";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
 
       {/* Features */}
       <Features />
-      
+
       {/* Footer */}
       <Footer />
     </div>
@@ -19,3 +20,5 @@ function App() {
 }
 
 export default App;
+
+
