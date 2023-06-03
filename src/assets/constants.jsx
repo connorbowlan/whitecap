@@ -42,7 +42,7 @@ const features = [
 const aboutSection = {
   title: "About Natural Gas",
   content:
-    "Natural gas is a versatile and abundant fossil fuel that is primarily composed of methane (CH4). It is formed deep within the Earth's crust over millions of years through the decomposition of organic matter. Natural gas is often found in conjunction with oil reservoirs or as separate deposits in underground rock formations. It is extracted through drilling wells and transported through pipelines or in liquefied form (LNG) for long-distance transportation. Natural gas is used for a variety of purposes, including electricity generation, heating, cooking, and as a feedstock for the production of chemicals and fertilizers. With its cleaner burning properties and cost-effectiveness, natural gas plays a significant role in the global energy mix. However, the environmental impact of natural gas extraction and its contribution to climate change through methane emissions are important considerations that need to be addressed in order to ensure a sustainable and responsible use of this valuable resource.",
+  "Natural gas is the cleanest-burning fossil fuel, offering numerous benefits for both residential and commercial use. With its low carbon emissions, natural gas is a more environmentally friendly choice compared to other energy sources. It provides reliable and efficient heating, cooking, and electricity generation, ensuring comfort and convenience for your home or business. Natural gas is also abundant and domestically available, reducing dependency on foreign energy sources. Experience the cost-effectiveness, versatility, and sustainability of natural gas for all your energy needs.",
 };
 
 const introSection = {
