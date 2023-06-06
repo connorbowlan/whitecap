@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './css/index.css'; // Update the import path here
+import './css/index.css'; 
 import App from './App';
-// import 'css/index.css';
-// import 'css/custom-styles.css';
+// import '.css/custom-styles.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
