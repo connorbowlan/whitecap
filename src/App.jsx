@@ -10,10 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<HeroSlider />} />
-        <Route path="/features" element={<Features />} />
-      </Routes>
+      <HeroSlider />
       <Footer />
     </BrowserRouter>
   );
