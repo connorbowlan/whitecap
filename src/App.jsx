@@ -11,6 +11,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <HeroSlider />
+      <Features />
       <Footer />
     </BrowserRouter>
   );

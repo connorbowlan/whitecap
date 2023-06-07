@@ -1,5 +1,5 @@
+import NavItems from "./subcomponents/NavItems";
 import logoIcon from "../img/logo-icon.png";
-
 
 function Navbar() {
   return (
@@ -8,11 +8,11 @@ function Navbar() {
         <div className="flex items-center">
           <img className="h-10" src={logoIcon} alt="WhiteCap Energy Logo" />
         </div>
-        
+
+        <NavItems />
       </div>
     </nav>
   );
 }
 
 export default Navbar;
-
