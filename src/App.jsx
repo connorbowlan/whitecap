@@ -1,41 +1,10 @@
-// import React from "react";
-// import { Features, Footer, HeroSlider, Navbar } from "./components";
-// import './css/index.css';
-// import './css/custom-styles.css';
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
-
-
-
-// function App() {
-//   return (
-//     <div className="w-full overflow-hidden">
-//       {/* Navbar */}
-//       <Navbar />
-
-//       {/* Hero */}
-//       <HeroSlider />
-
-//       {/* Features */}
-//       <Features />
-
-//       {/* Footer */}
-//       <Footer />
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
-
-
-
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Features, Footer, HeroSlider, Navbar } from './components';
 import './css/index.css';
 import './css/custom-styles.css';
+
+import { Features, Footer, HeroSlider, Navbar } from './components';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+
+import React from 'react';
 
 function App() {
   return (
@@ -51,6 +20,3 @@ function App() {
 }
 
 export default App;
-
-
-
