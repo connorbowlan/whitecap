@@ -10,11 +10,23 @@ body {
   background: #f9f9f9;
 }
 
-.hero-1 {
-  background: url("../img/hero/wheat-fields.jpg");
-  filter: brightness(100%);
+.hero-1::before {
+  content: "";
+  background: url("../img/hero/conference-room.jpg");
+  filter: brightness(0.7);
+  -webkit-filter: brightness(0.7);
   background-size: cover;
   background-position: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.hero-1 section {
+  position: relative;
 }
 
 .hero-2 {
@@ -38,4 +50,6 @@ body {
   background-position: center;
 }
 
-
+.expand-vpy {
+  height: 100vh;
+}

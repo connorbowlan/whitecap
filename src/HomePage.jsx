@@ -1,12 +1,13 @@
-import React from 'react';
-import { aboutSection, introSection } from '../assets/constants.jsx';
-import Feature from './components/subcomponents/Feature.jsx';
+import { aboutSection, introSection } from "./assets/constants";
+
+import Feature from "./components/subcomponents/Feature";
+import React from "react";
 
 function HomePage() {
   return (
-    <div>
+    <div className="bg-white border-2 border-solid border-gray-100 rounded-lg shadow-lg p-5">
       <section>
-        <h2>{introSection.title}</h2>
+        <h1>{introSection.title}</h1>
         <p>{introSection.content}</p>
       </section>
 
@@ -14,26 +15,8 @@ function HomePage() {
         <h2>{aboutSection.title}</h2>
         <p>{aboutSection.content}</p>
       </section>
-
-      <section>
-        <Feature
-          title="Cleaner Energy"
-          content="Some content about cleaner energy."
-        />
-        <Feature
-          title="Saving Money"
-          content="Some content about saving money."
-        />
-        <Feature
-          title="Better Environmentally"
-          content="Some content about better environment."
-        />
-      </section>
     </div>
   );
 }
 
 export default HomePage;
-
-
-

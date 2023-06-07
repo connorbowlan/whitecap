@@ -1,9 +1,9 @@
 import "./css/index.css";
-import "./css/custom-styles.css";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Features, Footer, HeroSlider, Navbar } from "./components";
 
+import HomePage from "./HomePage";
 import React from "react";
 
 function App() {
@@ -11,7 +11,11 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <HeroSlider />
-      <Features />
+      <div className="container mx-auto mt-4 expand-vpy">
+        <Features />
+        <HomePage />
+      </div>
+
       <Footer />
     </BrowserRouter>
   );
