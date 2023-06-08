@@ -40,19 +40,9 @@ const features = [
 ];
 
 
-const aboutSection = {
-  title: "About Natural Gas",
-  content:
-    "Natural gas is the cleanest-burning fossil fuel, offering numerous benefits for both residential and commercial use. With its low carbon emissions, natural gas is a more environmentally friendly choice compared to other energy sources. It provides reliable and efficient heating, cooking, and electricity generation, ensuring comfort and convenience for your home or business. Natural gas is also abundant and domestically available, reducing dependency on foreign energy sources. Experience the cost-effectiveness, versatility, and sustainability of natural gas for all your energy needs.",
-};
 
-const introSection = {
-  title: "Who is Whitecap?",
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  divider: true,
-};
 
-export { navItems, features, introSection, aboutSection };
+export { navItems, features, };
 
 
 
