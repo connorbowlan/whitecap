@@ -21,10 +21,9 @@ function HeroSlider() {
         <div className="text-white py-20 hero-1">
           <div className="container mx-auto px-4">
             <section>
-              <h1 className="text-4xl md:text-6xl font-bold mb-4">Slide 1</h1>
+              <h1 className="text-4xl md:text-6xl font-bold mb-4">Gas Facts</h1>
               <p className="text-lg mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                quis sagittis massa, at sodales est.
+                Natural gas is a versatile and clean-burning fossil fuel that is widely used for heating, cooking, and powering various industrial processes. It is composed mainly of methane and is odorless in its pure form.
               </p>
               <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
                 Learn More
@@ -35,10 +34,9 @@ function HeroSlider() {
 
         <div className="bg-gray-800 text-white py-20">
           <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">Slide 2</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">Benefits of Natural Gas</h1>
             <p className="text-lg mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              quis sagittis massa, at sodales est.
+              Natural gas is a clean and efficient energy source that helps reduce greenhouse gas emissions. It is used in power generation, transportation, and as a feedstock in the production of various materials. Switching to natural gas can have positive environmental and economic impacts.
             </p>
             <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
               Learn More
@@ -53,29 +51,3 @@ function HeroSlider() {
 export default HeroSlider;
 
 
-
-   {/* <div className="bg-gray-800 text-white py-20">
-          <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">Slide 3</h1>
-            <p className="text-lg mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              quis sagittis massa, at sodales est.
-            </p>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
-              Learn More
-            </button>
-          </div>
-        </div>
-
-        <div className="bg-gray-800 text-white py-20">
-          <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">Slide 4</h1>
-            <p className="text-lg mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              quis sagittis massa, at sodales est.
-            </p>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
-              Learn More
-            </button>
-          </div>
-        </div> */}

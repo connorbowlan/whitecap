@@ -9,7 +9,6 @@ function Footer() {
           <h3 className="text-4xl font-bold leading-tight text-white transform hover:scale-110 transition-transform">
             <span className="inline-block relative">
               <span className="text-transparent absolute top-0 left-0 w-full h-full bg-gradient-to-r from-blue-500 to-white bg-clip-text"></span>
-              <span className="text-blue-500">Whitecap</span>
             </span>
           </h3>
         </div>
