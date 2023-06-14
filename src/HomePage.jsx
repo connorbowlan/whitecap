@@ -1,4 +1,5 @@
 import React from "react";
+import horizontalLogo from "./img/logos/horizontal-logo.png";
 
 function Home() {
   return (
@@ -12,15 +13,29 @@ function Home() {
         </p>
       </section>
 
-      <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-6 underline">Our Story</h2>
-        <p className="mb-4 text-dark-700 bg-white bg-opacity-80 p-4 rounded-lg shadow-xl">
-          Whitecap Energy was founded in 20XX with a mission to provide affordable and sustainable natural gas solutions to residential and commercial customers. Our journey began with a small team of passionate individuals who recognized the potential of natural gas in creating a greener future. Over the years, we have grown into a trusted provider, serving thousands of customers with reliable and environmentally friendly energy solutions.
-        </p>
-        <p className="mb-4 text-dark-700 bg-white bg-opacity-80 p-4 rounded-lg shadow-xl">
-          Today, we continue to innovate and expand our services, ensuring that our customers receive the best possible experience. We are proud to be at the forefront of the natural gas industry, driving positive change and contributing to a more sustainable world.
-        </p>
-      </section>
+      <section className="mb-12 flex flex-wrap">
+  <div className="w-full md:w-1/2">
+    <h2 className="text-2xl font-bold mb-6 underline">Our Story</h2>
+    <div className="bg-green-200 border-2 border-blue-400 rounded-lg p-4 shadow-xl">
+      <p className="mb-4 text-dark-700 text-lg font-storyteller">
+        Whitecap Energy was founded in 20XX with a mission to provide affordable and sustainable natural gas solutions to
+        residential and commercial customers. Our journey began with a small team of passionate individuals who recognized
+        the potential of natural gas in creating a greener future. Over the years, we have grown into a trusted provider,
+        serving thousands of customers with reliable and environmentally friendly energy solutions.
+      </p>
+      <p className="mb-4 text-dark-700 text-lg font-storyteller">
+        Today, we continue to innovate and expand our services, ensuring that our customers receive the best possible
+        experience. We are proud to be at the forefront of the natural gas industry, driving positive change and
+        contributing to a more sustainable world.
+      </p>
+    </div>
+  </div>
+  <div className="w-full md:w-1/2 flex justify-center items-center">
+  <img className="h-10" src={horizontalLogo} alt="WhiteCap Energy Logo" />
+  </div>
+</section>
+
+
 
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-6 underline">Why Choose Natural Gas?</h2>
@@ -79,7 +94,7 @@ function Home() {
       </section>
 
       <section className="mb-12">
-  <h2 className="text-2xl font-bold mb-6 underline">Fun Facts About Natural Gas</h2>
+  <h2 className="text-2xl font-bold mb-6 underline">Expand Your Knowledge on Natural Gas</h2>
   <ul className="list-disc list-inside ml-6 text-black-700 space-y-2">
     <li className="flex items-center hover:text-blue-500">
       <svg className="w-4 h-4 mr-2 text-blue-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
