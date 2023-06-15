@@ -1,5 +1,6 @@
 import React from "react";
-import horizontalLogo from "./img/logos/horizontal-logo.png";
+import grassLogo from "./img/hero/grass.jpg";
+
 
 function Home() {
   return (
@@ -31,9 +32,17 @@ function Home() {
     </div>
   </div>
   <div className="w-full md:w-1/2 flex justify-center items-center">
-  <img className="h-10" src={horizontalLogo} alt="WhiteCap Energy Logo" />
+    <div className="bg-gray-800 rounded-lg p-8 shadow-xl">
+      <div className="mt-10">
+        <img className="h-20 md:h-80" src={grassLogo} alt="WhiteCap Energy Logo" />
+      </div>
+    </div>
   </div>
 </section>
+
+
+
+
 
 
 
