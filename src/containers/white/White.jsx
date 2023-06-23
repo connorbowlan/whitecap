@@ -5,7 +5,7 @@ import './white.css';
 const White = () => (
   <div className="whitecap__whitecap" id="whitecap">
     <div className="whitecap__whatgpt3-heading">
-      <h1 className="gradient__text">Welcome to WhiteCap</h1>
+      <h1 className="gradient__text">Welcome to Whitecap</h1>
       <p className="whitecap__explore-possibilities">Your gateway to the world of natural gas</p>
     </div>
     <div className="whitecap__whatgpt3-feature">

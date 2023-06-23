@@ -40,7 +40,7 @@ const Footer = () => (
     </div>
 
     <div className="whitecap__footer-copyright">
-      <p>@2023 WhiteCap. All rights reserved.</p>
+      <p>@2023 Whitecap. All rights reserved.</p>
     </div>
   </div>
 );

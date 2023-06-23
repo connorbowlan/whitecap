@@ -10,13 +10,13 @@ const Blog = () => (
 </div>
 <div className="whitecap__blog-container">
   <div className="whitecap__blog-container_groupA">
-    <Article imgUrl={Natgas1} date="Sep 26, 2021" text="Discover the Latest Trends in Natural Gas Industry" />
+    <Article imgUrl={Natgas1} date="Mar 26, 2023" text="Discover the Latest Trends in Natural Gas Industry" />
   </div>
   <div className="whitecap__blog-container_groupB">
-    <Article imgUrl={Natgas2} date="Sep 26, 2021" text="How Natural Gas Revolutionizes Energy Production" />
-    <Article imgUrl={Natgas3} date="Sep 26, 2021" text="The Importance of Natural Gas in Sustainable Development" />
-    <Article imgUrl={Natgas4} date="Sep 26, 2021" text="The Future of Natural Gas: Innovations and Opportunities" />
-    <Article imgUrl={Natgas5} date="Sep 26, 2021" text="Unlocking the Potential of Natural Gas for a Greener Future" />
+    <Article imgUrl={Natgas2} date="Jan 26, 2023" text="How Natural Gas Revolutionizes Energy Production" />
+    <Article imgUrl={Natgas3} date="Feb 26, 2023" text="The Importance of Natural Gas in Sustainable Development" />
+    <Article imgUrl={Natgas4} date="Apr 26, 2023" text="The Future of Natural Gas: Innovations and Opportunities" />
+    <Article imgUrl={Natgas5} date="May 26, 2023" text="Unlocking the Potential of Natural Gas for a Greener Future" />
   </div>
 </div>
   </div>
