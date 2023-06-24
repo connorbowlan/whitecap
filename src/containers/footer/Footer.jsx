@@ -15,7 +15,7 @@ const Footer = () => (
       <div className="footer-links_logo">
         <img src={whitecapLogo} alt="whitecap_logo" />
         <p>
-          Address, <br /> All Rights Reserved
+         All Rights Reserved
         </p>
       </div>
       <div className="footer-links_div">
