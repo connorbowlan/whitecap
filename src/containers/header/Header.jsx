@@ -5,7 +5,7 @@ function Header() {
     <div className="header section__padding" id="home">
       <div className="header-content">
         <h1 className="gradient__text">
-          Unlock the Power of Natural Gas with WhiteCap.
+          Unlock the Power of Natural Gas with WhiteCap
         </h1>
         <p>
           Discover the untapped potential of natural gas and its numerous

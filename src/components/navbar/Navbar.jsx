@@ -32,10 +32,10 @@ function Navbar() {
           </p>
         </div>
       </div>
-      <div className="navbar-sign">
+      {/* <div className="navbar-sign">
         <p>Sign in</p>
         <button type="button">Sign up</button>
-      </div>
+      </div> */}
       <div className="navbar-menu">
         {toggleMenu ? (
           <RiCloseLine

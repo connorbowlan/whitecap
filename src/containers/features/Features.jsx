@@ -22,7 +22,7 @@ const featuresData = [
   },
 ];
 
-const Features = () => (
+const Benefits = () => (
   <div className="features section__padding" id="features">
     <div className="features-heading">
       <h1 className="gradient__text">Embrace the Power of Natural Gas. Fuel Your Future Today.</h1>
@@ -37,7 +37,4 @@ const Features = () => (
   </div>
 );
 
-export default Features;
-
-
-
+export default Benefits;
