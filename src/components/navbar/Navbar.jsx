@@ -3,7 +3,7 @@ import "./navbar.css";
 import React, { useState } from "react";
 import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 
-import whitecapLogo from "../../assets/horizontal-logo.png";
+import logo from "../../assets/logo.png";
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -12,7 +12,7 @@ function Navbar() {
     <div className="whitecap__navbar">
       <div className="whitecap__navbar-links">
         <div className="whitecap__navbar-links_logo">
-          <img src={whitecapLogo} alt="whitecap_logo" />
+          <img src={logo} alt="WhiteCap Logo" />
         </div>
         <div className="whitecap__navbar-links_container">
           <p>

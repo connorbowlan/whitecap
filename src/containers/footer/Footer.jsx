@@ -1,11 +1,14 @@
-import React from 'react';
-import whitecapLogo from '../../assets/horizontal-logo.png';
-import './footer.css';
+import "./footer.css";
+
+import React from "react";
+import whitecapLogo from "../../assets/logo.png";
 
 const Footer = () => (
   <div className="whitecap__footer section__padding">
     <div className="whitecap__footer-heading">
-      <h1 className="gradient__text">Do you want to step into the future before others?</h1>
+      <h1 className="gradient__text">
+        Do you want to step into the future before others?
+      </h1>
     </div>
 
     <div className="whitecap__footer-btn">
@@ -14,9 +17,10 @@ const Footer = () => (
 
     <div className="whitecap__footer-links">
       <div className="whitecap__footer-links_logo">
-        
         <img src={whitecapLogo} alt="whitecap_logo" />
-        <p>Address, <br /> All Rights Reserved</p>
+        <p>
+          Address, <br /> All Rights Reserved
+        </p>
       </div>
       <div className="whitecap__footer-links_div">
         <h4>Links</h4>
