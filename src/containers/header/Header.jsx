@@ -1,5 +1,4 @@
 import React from 'react';
-import people from '../../assets/people.png';
 import ai from '../../assets/wheat-fields.jpg';
 import './header.css';
 
@@ -15,8 +14,6 @@ const Header = () => (
       </div>
 
       <div className="whitecap__header-content__people">
-        <img src={people} alt="People" />
-        <p>1,600 people requested access a visit in the last 24 hours</p>
       </div>
     </div>
 
