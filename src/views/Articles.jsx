@@ -1,13 +1,17 @@
-import { Article } from "../components";
+import { Hero } from "../containers";
+import { articles } from "../assets/content";
 import { useParams } from "react-router-dom";
 
 function Articles() {
   const { id } = useParams();
+  const article = articles.find((x) => x.id == id);
 
   return (
     <div>
-      <h1>Do you like sniffing butts?</h1>
-      <p>My dog loves sniffing butts.</p>
+      <Hero title={article.title} content={article.date} showGetStarted="false" />
+      <div className="article">
+      <div className="section-margin secton-padding" dangerouslySetInnerHTML={{__html: `${article.content}`} }/>
+      </div>
     </div>
   );
 }

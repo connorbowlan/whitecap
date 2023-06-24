@@ -5,10 +5,10 @@ import { navLinks } from "../../assets/layoutConstants";
 function HorziontalNav() {
   return (
     <div className="navigation">
-      <div class="desktop-menu">
+      <div className="desktop-menu">
         <ul>
           {navLinks.map((item) => (
-            <li>
+            <li key={item.id}>
               <a href={item.path}>{item.name}</a>
             </li>
           ))}

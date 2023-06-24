@@ -8,16 +8,11 @@ function VerticalNav() {
       <div className="mobile-menu">
         <ul>
           {navLinks.map((item) => (
-            <li>
+            <li key={item.id}>
               <a href={item.path}>{item.name}</a>
             </li>
           ))}
         </ul>
-
-        {/* <div className="navbar-menu_container-links-sign">
-          <p>Sign in</p>
-          <button type="button">Sign up</button>
-        </div> */}
       </div>
     </div>
   );
