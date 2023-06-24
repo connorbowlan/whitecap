@@ -6,7 +6,7 @@ import Article from '../../components/article/Article';
 import React from 'react';
 
 const Blog = () => (
-  <div className="blog section__padding" id="blog">
+  <div className="blog section-padding" id="blog">
     <div className="blog">
   
 </div>

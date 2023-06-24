@@ -23,9 +23,9 @@ const featuresData = [
 ];
 
 const Benefits = () => (
-  <div className="features section__padding" id="features">
+  <div className="features section-padding" id="features">
     <div className="features-heading">
-      <h1 className="gradient__text">Embrace the Power of Natural Gas. Fuel Your Future Today.</h1>
+      <h1 className="gradient-text">Embrace the Power of Natural Gas. Fuel Your Future Today.</h1>
       <p className="request-access">Request Early Access to Get Started</p>
     </div>
 

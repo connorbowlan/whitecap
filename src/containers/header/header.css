@@ -31,7 +31,7 @@
     margin-top: 1.5rem;
 }
 
-.header-content__input {
+.header-content-input {
     width: 100%;
     margin: 2rem 0 1rem;
 
@@ -39,7 +39,7 @@
     flex-direction: row;
 }
 
-.header-content__input input {
+.header-content-input input {
     flex: 2;
     width: 100%;
     min-height: 50px;
@@ -57,7 +57,7 @@
     border-bottom-left-radius: 5px;
 }
 
-.header-content__input button {
+.header-content-input button {
     flex: 0.6;
     width: 100%;
     min-height: 50px;
@@ -76,7 +76,7 @@
     border-bottom-right-radius: 5px;
 }
 
-.header-content__people {
+.header-content-people {
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -86,12 +86,12 @@
     margin-top: 2rem;
 }
 
-.header-content__people img {
+.header-content-people img {
     width: 181.79px;
     height: 38px;
 }
 
-.header-content__people p {
+.header-content-people p {
     margin: 0 0 0 1rem;
     font-family: var(--font-family);
     font-weight: 500;
@@ -134,16 +134,16 @@
         line-height: 24px;
     }
     
-    .header-content__people {
+    .header-content-people {
         flex-direction: column;
     }
 
-    .header-content__people p {
+    .header-content-people p {
         margin: 0;
     }
 
-    .header-content__input input,
-    .header-content__input button {
+    .header-content-input input,
+    .header-content-input button {
         font-size: 16px;
         line-height: 24px;
     }
@@ -160,8 +160,8 @@
         line-height: 24px;
     }
 
-    .header-content__input input,
-    .header-content__input button {
+    .header-content-input input,
+    .header-content-input button {
         font-size: 12px;
         line-height: 16px;
     }

@@ -6,7 +6,7 @@ function Welcome() {
   return (
     <div className="whitecap" id="whitecap">
       <div className="whatgpt3-heading">
-        <h1 className="gradient__text">Welcome to WhiteCap</h1>
+        <h1 className="gradient-text">Welcome to WhiteCap</h1>
         <p className="explore-possibilities">
           Your gateway to the world of natural gas
         </p>

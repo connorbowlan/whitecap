@@ -2,9 +2,9 @@ import "./header.css";
 
 function Header() {
   return (
-    <div className="header section__padding" id="home">
+    <div className="header section-padding" id="home">
       <div className="header-content">
-        <h1 className="gradient__text">
+        <h1 className="gradient-text">
           Unlock the Power of Natural Gas with WhiteCap
         </h1>
         <p>
@@ -16,7 +16,7 @@ function Header() {
           solutions.
         </p>
 
-        <div className="header-content__input">
+        <div className="header-content-input">
           <input type="email" placeholder="Email Address" />
           <button type="button">Get Started</button>
         </div>
