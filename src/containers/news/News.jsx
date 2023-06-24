@@ -6,17 +6,17 @@ import Article from "../../components/article/Article";
 
 function News() {
   return (
-    <div id="News" className="blog section-padding">
-      <div className="blog"></div>
-      <div className="blog-container">
-        <div className="blog-container_groupA">
+    <div id="News" className="news section-padding">
+      <div className="news"></div>
+      <div className="news-container">
+        <div className="news-container_groupA">
           <Article
             imgUrl={Natgas1}
             date="Mar 26, 2023"
             text="Discover the Latest Trends in Natural Gas Industry"
           />
         </div>
-        <div className="blog-container_groupB">
+        <div className="news-container_groupB">
           <Article
             imgUrl={Natgas2}
             date="Jan 26, 2023"
