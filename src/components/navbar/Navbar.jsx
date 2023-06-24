@@ -19,7 +19,7 @@ function Navbar() {
             <a href="#home">Home</a>
           </p>
           <p>
-            <a href="#whitecap">Who is Whitecap?</a>
+            <a href="#whitecap">Who is WhiteCap?</a>
           </p>
           <p>
             <a href="#possibility">Natural Gas</a>
