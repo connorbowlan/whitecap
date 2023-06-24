@@ -14,7 +14,7 @@ function Navbar() {
         <img src={logo} alt="WhiteCap Logo" />
       </div>
 
-      <div class="horizontal-links">
+      <div class="desktop-menu">
         <ul>
           <li>
             <a href="#home">Home</a>
@@ -56,25 +56,23 @@ function Navbar() {
       </div>
       {toggleMenu && (
         <div className="mobile-links">
-          <div className="navbar-menu_container-links">
-            <ul>
-              <li>
-                <a href="#home">Home</a>
-              </li>
-              <li>
-                <a href="#whitecap">Information</a>
-              </li>
-              <li>
-                <a href="#possibility">Natural Gas</a>
-              </li>
-              <li>
-                <a href="#features">Case Studies</a>
-              </li>
-              <li>
-                <a href="#blog">News</a>
-              </li>
-            </ul>
-          </div>
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#whitecap">Information</a>
+            </li>
+            <li>
+              <a href="#possibility">Natural Gas</a>
+            </li>
+            <li>
+              <a href="#features">Case Studies</a>
+            </li>
+            <li>
+              <a href="#blog">News</a>
+            </li>
+          </ul>
 
           {/* <div className="navbar-menu_container-links-sign">
                 <p>Sign in</p>
