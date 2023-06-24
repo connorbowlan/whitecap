@@ -1,4 +1,4 @@
-import "./white.css";
+import "./welcome.css";
 
 import Feature from "../../components/feature/Feature";
 

@@ -6,7 +6,7 @@ import {
   Footer,
   Header,
   Possibility,
-  WhiteCap,
+  Welcome,
 } from "./containers";
 import { Brand, CTA, Navbar } from "./components";
 
@@ -19,7 +19,7 @@ const App = () => (
       <Header />
     </div>
     {/* <Brand /> */}
-    <WhiteCap />
+    <Welcome />
     <Features />
     <Possibility />
     <CTA />
