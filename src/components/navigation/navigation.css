@@ -13,21 +13,16 @@ nav .logo img {
   height: 130px;
 }
 
-nav ul {
+.navigation ul {
   list-style: none;
 }
 
-nav .desktop-menu ul {
-  display: flex;
-  flex-direction: row;
-}
+.navigation ul li {
+    display: block;
+    margin: 1rem 1rem 1rem 0;
+  }
 
-nav ul li {
-  display: block;
-  margin: 1rem 1rem 1rem 0;
-}
-
-nav ul li a {
+.navigation ul li a {
   color: #ffffff;
   cursor: pointer;
   font-family: var(--font-family);
@@ -36,33 +31,39 @@ nav ul li a {
   line-height: 25px;
 }
 
-/* .navbar-sign button,
-.navbar-menu_container button {
-  padding: 0.5rem 1rem;
-  color: #fff;
-  background: #ff4820;
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 25px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  border-radius: 5px;
-} */
+.navigation .desktop-menu ul {
+  display: flex;
+  flex-direction: row;
+}
 
-.mobile-menu {
+
+/* ..desktop-menubar-sign button,
+  ..desktop-menubar-menu_container button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #ff4820;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+  } */
+
+.mobile-menu-icon {
   display: none;
   margin-left: auto;
   position: relative;
 }
 
-.mobile-links {
+.mobile-menu {
   background: var(--color-footer);
   padding: 0 1rem 0 1rem;
   position: absolute;
-  right: 80px;
-  top: 130px;
+  right: 0px;
+  top: 40px;
   border-radius: 5px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
@@ -72,19 +73,19 @@ nav ul li a {
     display: none;
   }
 
-  .mobile-menu {
+  .mobile-menu-icon {
     display: flex;
   }
 }
 
 @media screen and (max-width: 700px) {
-  nav {
+  .desktop-menu {
     padding: 2rem 4rem;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .navbar {
+  ..desktop-menubar {
     padding: 2rem;
   }
 }

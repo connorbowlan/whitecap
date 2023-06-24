@@ -1,12 +1,12 @@
 import {
   Benefits,
-  Blog,
-  Footer,
   Hero,
+  News,
   Possibility,
   Welcome,
 } from "../containers";
-import { Brand, CTA, Navbar } from "../components";
+
+import { CTA } from "../components";
 
 function Home() {
   return (
@@ -14,7 +14,7 @@ function Home() {
       <Hero />
       {/* <Brand /> */}
       <Welcome />
-      <Blog />
+      <News />
       <Benefits />
       <Possibility />
       <CTA />
