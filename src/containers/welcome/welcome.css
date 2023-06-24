@@ -12,7 +12,7 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.whitecap-heading {
+.whatgpt3-heading {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,7 @@
   margin-bottom: 2rem;
 }
 
-.whitecap-heading h1 {
+.whatgpt3-heading h1 {
   font-size: 34px;
   line-height: 45px;
   font-weight: 800;
@@ -28,7 +28,7 @@
   max-width: 510px;
 }
 
-.whitecap-heading p {
+.whatgpt3-heading p {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 24px;
@@ -36,7 +36,7 @@
   color: #fff;
 }
 
-.whitecap-feature {
+.whatgpt3-feature {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +44,7 @@
   margin-bottom: 2rem;
 }
 
-.whitecap-container {
+.whatgpt3-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
@@ -53,28 +53,28 @@
   text-align: center;
 }
 
-.whatgpt3-container .features-container__feature {
+.whatgpt3-container .features-container-feature {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.whatgpt3-container .features-container__feature-text {
+.whatgpt3-container .features-container-feature-text {
   margin-top: 0.5rem;
 }
 
 @media screen and (max-width: 850px) {
-  .whitecap-heading {
+  .whatgpt3-heading {
     margin-bottom: 0;
   }
 
-  .whitecap-heading p {
+  .whatgpt3-heading p {
     margin-top: 1rem;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .whitecap-heading h1 {
+  .whatgpt3-heading h1 {
     font-size: 28px;
     line-height: 40px;
   }
