@@ -1,9 +1,16 @@
-import React from 'react';
+import "./App.css";
 
-import { Footer, Blog, Possibility, Features, Whitecap, Header } from './containers';
-import { CTA, Brand, Navbar } from './components';
+import {
+  Blog,
+  Features,
+  Footer,
+  Header,
+  Possibility,
+  Whitecap,
+} from "./containers";
+import { Brand, CTA, Navbar } from "./components";
 
-import './App.css';
+import React from "react";
 
 const App = () => (
   <div className="App">
