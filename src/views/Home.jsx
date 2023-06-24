@@ -18,7 +18,6 @@ function Home() {
       <Benefits />
       <Possibility />
       <CTA />
-      <Footer />
     </div>
   );
 }
