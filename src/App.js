@@ -18,7 +18,7 @@ const App = () => (
       <Navbar />
       <Header />
     </div>
-    <Brand />
+    {/* <Brand /> */}
     <Whitecap />
     <Features />
     <Possibility />
