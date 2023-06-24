@@ -1,6 +1,7 @@
 nav {
+  align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 2rem 6rem;
 }
 
@@ -8,13 +9,12 @@ div {
   border: 1px solid red;
 }
 
-nav .logo img {
-  height: 130px;
+nav .logo {
+  padding: 0 2rem 0 0;
 }
 
-nav .links {
-  display: flex;
-  flex-direction: row;
+nav .logo img {
+  height: 130px;
 }
 
 nav ul {
@@ -31,26 +31,6 @@ nav ul li a {
   font-size: 18px;
   line-height: 25px;
   margin: 0 1rem 0 0;
-}
-
-.navbar-sign {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.navbar-links_container p,
-.navbar-sign p,
-.navbar-menu_container p {
-  color: #fff;
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: capitalize;
-
-  margin: 0 1rem;
-  cursor: pointer;
 }
 
 .navbar-sign button,
@@ -100,7 +80,7 @@ nav ul li a {
 }
 
 @media screen and (max-width: 1050px) {
-  .navbar-links_container {
+  .horizontal-links {
     display: none;
   }
 
@@ -110,7 +90,7 @@ nav ul li a {
 }
 
 @media screen and (max-width: 700px) {
-  .navbar {
+  nav {
     padding: 2rem 4rem;
   }
 }
