@@ -9,12 +9,12 @@ function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="whitecap__navbar">
-      <div className="whitecap__navbar-links">
-        <div className="whitecap__navbar-links_logo">
+    <div className="navbar">
+      <div className="navbar-links">
+        <div className="navbar-links_logo">
           <img src={logo} alt="WhiteCap Logo" />
         </div>
-        <div className="whitecap__navbar-links_container">
+        <div className="navbar-links_container">
           <p>
             <a href="#home">Home</a>
           </p>
@@ -32,27 +32,27 @@ function Navbar() {
           </p>
         </div>
       </div>
-      <div className="whitecap__navbar-sign">
+      <div className="navbar-sign">
         <p>Sign in</p>
         <button type="button">Sign up</button>
       </div>
-      <div className="whitecap__navbar-menu">
+      <div className="navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
-            color="#fff"
+            color="#ffffff"
             size={27}
             onClick={() => setToggleMenu(false)}
           />
         ) : (
           <RiMenu3Line
-            color="#fff"
+            color="#ffffff"
             size={27}
             onClick={() => setToggleMenu(true)}
           />
         )}
         {toggleMenu && (
-          <div className="whitecap__navbar-menu_container scale-up-center">
-            <div className="whitecap__navbar-menu_container-links">
+          <div className="navbar-menu_container scale-up-center">
+            <div className="navbar-menu_container-links">
               <p>
                 <a href="#home">Home</a>
               </p>
@@ -70,7 +70,7 @@ function Navbar() {
               </p>
             </div>
 
-            <div className="whitecap__navbar-menu_container-links-sign">
+            <div className="navbar-menu_container-links-sign">
               <p>Sign in</p>
               <button type="button">Sign up</button>
             </div>

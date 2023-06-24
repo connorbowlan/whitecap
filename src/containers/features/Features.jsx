@@ -1,6 +1,7 @@
-import React from 'react';
-import Feature from '../../components/feature/Feature';
 import './features.css';
+
+import Feature from '../../components/feature/Feature';
+import React from 'react';
 
 const featuresData = [
   {
@@ -22,13 +23,13 @@ const featuresData = [
 ];
 
 const Features = () => (
-  <div className="whitecap__features section__padding" id="features">
-    <div className="whitecap__features-heading">
+  <div className="features section__padding" id="features">
+    <div className="features-heading">
       <h1 className="gradient__text">Embrace the Power of Natural Gas. Fuel Your Future Today.</h1>
-      <p className="whitecap__request-access">Request Early Access to Get Started</p>
+      <p className="request-access">Request Early Access to Get Started</p>
     </div>
 
-    <div className="whitecap__features-container">
+    <div className="features-container">
       {featuresData.map((item, index) => (
         <Feature title={item.title} text={item.text} key={item.title + index} />
       ))}

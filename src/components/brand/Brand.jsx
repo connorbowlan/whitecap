@@ -1,9 +1,11 @@
-import React from 'react';
-import { google, slack, atlassian, dropbox, shopify } from './imports';
 import './brand.css';
 
+import { atlassian, dropbox, google, shopify, slack } from './imports';
+
+import React from 'react';
+
 const Brand = () => (
-  <div className="whitecap__brand section__padding">
+  <div className="brand section__padding">
     <div>
       <img src={google} />
     </div>

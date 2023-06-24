@@ -4,20 +4,20 @@ import Feature from "../../components/feature/Feature";
 
 function Welcome() {
   return (
-    <div className="whitecap__whitecap" id="whitecap">
-      <div className="whitecap__whatgpt3-heading">
+    <div className="whitecap" id="whitecap">
+      <div className="whatgpt3-heading">
         <h1 className="gradient__text">Welcome to WhiteCap</h1>
-        <p className="whitecap__explore-possibilities">
+        <p className="explore-possibilities">
           Your gateway to the world of natural gas
         </p>
       </div>
-      <div className="whitecap__whatgpt3-feature">
+      <div className="whatgpt3-feature">
         <Feature
           title="Discover WhiteCap"
           text="Experience the power and potential of this abundant energy source. Join us on a journey of innovation and sustainability."
         />
       </div>
-      <div className="whitecap__whatgpt3-container">
+      <div className="whatgpt3-container">
         <Feature
           title="Powering Industries"
           text="Enhance your operations with the reliability and efficiency of natural gas. Fuel your industrial processes and unlock greater productivity and profitability."

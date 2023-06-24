@@ -2,8 +2,8 @@ import "./header.css";
 
 function Header() {
   return (
-    <div className="whitecap__header section__padding" id="home">
-      <div className="whitecap__header-content">
+    <div className="header section__padding" id="home">
+      <div className="header-content">
         <h1 className="gradient__text">
           Unlock the Power of Natural Gas with WhiteCap.
         </h1>
@@ -16,12 +16,12 @@ function Header() {
           solutions.
         </p>
 
-        <div className="whitecap__header-content__input">
+        <div className="header-content__input">
           <input type="email" placeholder="Email Address" />
           <button type="button">Get Started</button>
         </div>
 
-        <div className="whitecap__header-content__people"></div>
+        <div className="header-content__people"></div>
       </div>
     </div>
   );
