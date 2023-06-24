@@ -10,9 +10,11 @@ function Navbar() {
 
   return (
     <nav className="gradient-bg">
+      
       <div className="logo">
         <img src={logo} alt="WhiteCap Logo" />
       </div>
+      
       <div class="horizontal-links">
         <ul>
           <li>
@@ -37,6 +39,7 @@ function Navbar() {
         <p>Sign in</p>
         <button type="button">Sign up</button>
       </div> */}
+      
       <div className="navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
@@ -80,6 +83,7 @@ function Navbar() {
           </div>
         )}
       </div>
+      
     </nav>
   );
 }
