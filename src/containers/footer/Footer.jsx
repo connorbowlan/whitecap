@@ -1,7 +1,6 @@
 import "./footer.css";
 
-import React from "react";
-import whitecapLogo from "../../assets/logo.png";
+import logo from "../../assets/logo.png";
 
 const Footer = () => (
   <footer className="section-padding">
@@ -13,7 +12,7 @@ const Footer = () => (
 
     <div className="columns">
       <div className="logo">
-        <img src={whitecapLogo} alt="whitecap_logo" />
+        <img src={logo} alt="WhiteCap Logo" />
       </div>
 
       <div>
@@ -34,7 +33,9 @@ const Footer = () => (
         <h4>Get in touch</h4>
         <p>5030 N May Ave #123, Oklahoma CIty, OK 73112</p>
         <p>405-384-7189</p>
-        <p><a href="mailto:info@wcngs.com">info@wcngs.com</a></p>
+        <p>
+          <a href="mailto:info@wcngs.com">info@wcngs.com</a>
+        </p>
       </div>
     </div>
 
