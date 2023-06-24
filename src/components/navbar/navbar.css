@@ -49,9 +49,9 @@ nav ul li a {
 }
 
 .navbar-menu {
+  align-self: flex-end;
   margin-left: 1rem;
   display: none;
-  position: relative;
 }
 
 .navbar-menu_container {
