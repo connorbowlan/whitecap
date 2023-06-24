@@ -53,6 +53,11 @@
   }
 
   .features-container-feature {
-    margin: 1rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
   }
+  
 }
