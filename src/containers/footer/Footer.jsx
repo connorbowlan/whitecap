@@ -33,8 +33,8 @@ const Footer = () => (
       </div>
       <div className="footer-links_div">
         <h4>Get in touch</h4>
-        <p>Address</p>
-        <p>085-132567</p>
+        <p>5030 N May Ave #123, Oklahoma CIty, OK 73112</p>
+        <p>405-384-7189</p>
         <p>info@payme.net</p>
       </div>
     </div>
