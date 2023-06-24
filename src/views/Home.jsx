@@ -17,7 +17,7 @@ function Home() {
       <News />
       <Benefits />
       <Possibility />
-      <CTA />
+      {/* <CTA /> */}
     </div>
   );
 }

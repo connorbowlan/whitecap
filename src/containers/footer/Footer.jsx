@@ -4,45 +4,44 @@ import React from "react";
 import whitecapLogo from "../../assets/logo.png";
 
 const Footer = () => (
-  <div className="footer section-padding">
-    <div className="footer-heading">
+  <footer className="section-padding">
+    {/* <div className="footer-heading">
       <h1 className="gradient-text">
         Do you want to step into the future before others?
       </h1>
-    </div>
+    </div> */}
 
-    <div className="footer-links">
-      <div className="footer-links_logo">
+    <div className="columns">
+      <div className="logo">
         <img src={whitecapLogo} alt="whitecap_logo" />
-        <p>
-         All Rights Reserved
-        </p>
       </div>
-      <div className="footer-links_div">
+
+      <div>
         <h4>Links</h4>
         <p>Over ons</p>
         <p>Social Media</p>
         <p>Counters</p>
         <p>Contact</p>
       </div>
-      <div className="footer-links_div">
+
+      <div>
         <h4>Company</h4>
         <p>Terms & Conditions </p>
         <p>Privacy Policy</p>
-        <p>Contact</p>
       </div>
-      <div className="footer-links_div">
+
+      <div>
         <h4>Get in touch</h4>
         <p>5030 N May Ave #123, Oklahoma CIty, OK 73112</p>
         <p>405-384-7189</p>
-        <p>info@payme.net</p>
+        <p><a href="mailto:info@wcngs.com">info@wcngs.com</a></p>
       </div>
     </div>
 
     <div className="footer-copyright">
-      <p>@2023 WhiteCap. All rights reserved.</p>
+      <p>Copyright 2023 WhiteCap. All rights reserved.</p>
     </div>
-  </div>
+  </footer>
 );
 
 export default Footer;
