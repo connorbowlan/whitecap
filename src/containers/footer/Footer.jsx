@@ -11,10 +11,6 @@ const Footer = () => (
       </h1>
     </div>
 
-    <div className="footer-btn">
-      <p>Request Access</p>
-    </div>
-
     <div className="footer-links">
       <div className="footer-links_logo">
         <img src={whitecapLogo} alt="whitecap_logo" />

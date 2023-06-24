@@ -20,8 +20,6 @@ function Header() {
           <input type="email" placeholder="Email Address" />
           <button type="button">Get Started</button>
         </div>
-
-        <div className="header-content__people"></div>
       </div>
     </div>
   );
