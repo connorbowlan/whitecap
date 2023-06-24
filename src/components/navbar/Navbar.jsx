@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 
 import logo from "../../assets/logo.png";
+import { navLinks } from "../../assets/layoutConstants";
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -16,21 +17,11 @@ function Navbar() {
 
       <div class="desktop-menu">
         <ul>
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#whitecap">Information</a>
-          </li>
-          <li>
-            <a href="#possibility">Natural Gas</a>
-          </li>
-          <li>
-            <a href="#features">Case Studies</a>
-          </li>
-          <li>
-            <a href="#blog">News</a>
-          </li>
+          {navLinks.map((item) => (
+            <li>
+              <a href={item.path}>{item.name}</a>
+            </li>
+          ))}
         </ul>
       </div>
 
@@ -57,21 +48,11 @@ function Navbar() {
       {toggleMenu && (
         <div className="mobile-links">
           <ul>
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#whitecap">Information</a>
-            </li>
-            <li>
-              <a href="#possibility">Natural Gas</a>
-            </li>
-            <li>
-              <a href="#features">Case Studies</a>
-            </li>
-            <li>
-              <a href="#blog">News</a>
-            </li>
+            {navLinks.map((item) => (
+              <li>
+                <a href={item.path}>{item.name}</a>
+              </li>
+            ))}
           </ul>
 
           {/* <div className="navbar-menu_container-links-sign">

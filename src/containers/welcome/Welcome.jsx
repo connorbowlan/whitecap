@@ -4,8 +4,8 @@ import Feature from "../../components/feature/Feature";
 
 function Welcome() {
   return (
-    <div className="whitecap" id="whitecap">
-      <div className="whatgpt3-heading">
+    <div id="Information" className="whitecap">
+      <div className="what-heading">
         <h1 className="gradient-text">Welcome to WhiteCap</h1>
         <p className="explore-possibilities">
           Your gateway to the world of natural gas

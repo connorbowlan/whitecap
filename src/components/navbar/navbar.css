@@ -5,7 +5,6 @@ nav {
   padding: 2rem 6rem;
 }
 
-
 nav .logo {
   padding: 0 2rem 0 0;
 }
@@ -14,13 +13,13 @@ nav .logo img {
   height: 130px;
 }
 
+nav ul {
+  list-style: none;
+}
+
 nav .desktop-menu ul {
   display: flex;
   flex-direction: row;
-}
-
-nav ul {
-  list-style: none;
 }
 
 nav ul li {
