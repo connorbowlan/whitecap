@@ -33,7 +33,7 @@ nav ul li a {
   margin: 0 1rem 0 0;
 }
 
-.navbar-sign button,
+/* .navbar-sign button,
 .navbar-menu_container button {
   padding: 0.5rem 1rem;
   color: #fff;
@@ -46,15 +46,16 @@ nav ul li a {
   outline: none;
   cursor: pointer;
   border-radius: 5px;
-}
+} */
 
-.navbar-menu {
-  align-self: flex-end;
+.mobile-menu {
+  flex-grow: 1;
   margin-left: 1rem;
-  display: none;
+  text-align: right;
+  position: relative;
 }
 
-.navbar-menu_container {
+.mobile-links {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -71,10 +72,6 @@ nav ul li a {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
-.navbar-menu_container p {
-  margin: 1rem 0;
-}
-
 .navbar-menu_container-links-sign {
   display: block;
 }
@@ -84,7 +81,7 @@ nav ul li a {
     display: none;
   }
 
-  .navbar-menu {
+  .mobile-menu {
     display: flex;
   }
 }
@@ -98,10 +95,6 @@ nav ul li a {
 @media screen and (max-width: 550px) {
   .navbar {
     padding: 2rem;
-  }
-
-  .navbar-sign {
-    display: none;
   }
 
   .navbar-menu_container {

@@ -1,6 +1,6 @@
-import "./header.css";
+import "./hero.css";
 
-function Header() {
+function Hero() {
   return (
     <div className="header section-padding" id="home">
       <div className="header-content">
@@ -25,4 +25,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Hero;

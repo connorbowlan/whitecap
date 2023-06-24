@@ -10,11 +10,10 @@ function Navbar() {
 
   return (
     <nav className="gradient-bg">
-      
       <div className="logo">
         <img src={logo} alt="WhiteCap Logo" />
       </div>
-      
+
       <div class="horizontal-links">
         <ul>
           <li>
@@ -39,8 +38,8 @@ function Navbar() {
         <p>Sign in</p>
         <button type="button">Sign up</button>
       </div> */}
-      
-      <div className="navbar-menu">
+
+      <div className="mobile-menu">
         {toggleMenu ? (
           <RiCloseLine
             color="#ffffff"
@@ -54,36 +53,35 @@ function Navbar() {
             onClick={() => setToggleMenu(true)}
           />
         )}
-        {toggleMenu && (
-          <div className="navbar-menu_container">
-            <div className="navbar-menu_container-links">
-              <ul>
-                <li>
-                  <a href="#home">Home</a>
-                </li>
-                <li>
-                  <a href="#whitecap">Information</a>
-                </li>
-                <li>
-                  <a href="#possibility">Natural Gas</a>
-                </li>
-                <li>
-                  <a href="#features">Case Studies</a>
-                </li>
-                <li>
-                  <a href="#blog">News</a>
-                </li>
-              </ul>
-            </div>
+      </div>
+      {toggleMenu && (
+        <div className="mobile-links">
+          <div className="navbar-menu_container-links">
+            <ul>
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#whitecap">Information</a>
+              </li>
+              <li>
+                <a href="#possibility">Natural Gas</a>
+              </li>
+              <li>
+                <a href="#features">Case Studies</a>
+              </li>
+              <li>
+                <a href="#blog">News</a>
+              </li>
+            </ul>
+          </div>
 
-            {/* <div className="navbar-menu_container-links-sign">
+          {/* <div className="navbar-menu_container-links-sign">
                 <p>Sign in</p>
                 <button type="button">Sign up</button>
               </div> */}
-          </div>
-        )}
-      </div>
-      
+        </div>
+      )}
     </nav>
   );
 }

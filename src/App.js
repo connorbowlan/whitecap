@@ -1,31 +1,27 @@
 import "./App.css";
 
-import {
-  Benefits,
-  Blog,
-  Footer,
-  Header,
-  Possibility,
-  Welcome,
-} from "./containers";
-import { Brand, CTA, Navbar } from "./components";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import React from "react";
+import Articles from "./views/Articles";
+import { Footer } from "./containers";
+import Home from "./views/Home";
+import { Navbar } from "./components";
 
-const App = () => (
-  <div className="App">
-    <div className="gradient__bg">
-      <Navbar />
-      <Header />
-    </div>
-    {/* <Brand /> */}
-    <Welcome />
-    <Benefits />
-    <Possibility />
-    <CTA />
-    <Blog />
-    <Footer />
-  </div>
-);
+function App() {
+  return (
+    <BrowserRouter>
+      <div className="App">
+        <div className="gradient-bg">
+          <Navbar />
+        </div>
+        <Routes>
+          <Route path="/" Component={Home}></Route>
+          <Route path="/articles/:id" Component={Articles}></Route>
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
+  );
+}
 
 export default App;
