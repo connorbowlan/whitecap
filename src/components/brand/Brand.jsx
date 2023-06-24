@@ -5,7 +5,7 @@ import { atlassian, dropbox, google, shopify, slack } from './imports';
 import React from 'react';
 
 const Brand = () => (
-  <div className="brand section__padding">
+  <div className="brand section-padding">
     <div>
       <img src={google} />
     </div>

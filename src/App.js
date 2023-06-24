@@ -1,8 +1,8 @@
 import "./App.css";
 
 import {
+  Benefits,
   Blog,
-  Features,
   Footer,
   Header,
   Possibility,
@@ -20,7 +20,7 @@ const App = () => (
     </div>
     {/* <Brand /> */}
     <Welcome />
-    <Features />
+    <Benefits />
     <Possibility />
     <CTA />
     <Blog />

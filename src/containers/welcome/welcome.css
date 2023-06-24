@@ -53,13 +53,13 @@
   text-align: center;
 }
 
-.whitecap-container .features-container__feature {
+.whatgpt3-container .features-container__feature {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.whitecap-container .features-container__feature-text {
+.whatgpt3-container .features-container__feature-text {
   margin-top: 0.5rem;
 }
 

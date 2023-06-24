@@ -4,15 +4,11 @@ import React from "react";
 import whitecapLogo from "../../assets/logo.png";
 
 const Footer = () => (
-  <div className="footer section__padding">
+  <div className="footer section-padding">
     <div className="footer-heading">
-      <h1 className="gradient__text">
+      <h1 className="gradient-text">
         Do you want to step into the future before others?
       </h1>
-    </div>
-
-    <div className="footer-btn">
-      <p>Request Access</p>
     </div>
 
     <div className="footer-links">
