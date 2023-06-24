@@ -1,6 +1,5 @@
-import { Benefits, Hero, News, Possibility, Welcome } from "../containers";
-
-import { CTA } from "../components";
+import { Hero, Information, News, Possibility, Welcome } from "../containers";
+import { benefitsData, welcomeData } from "../assets/content";
 
 function Home() {
   return (
@@ -12,12 +11,24 @@ function Home() {
           solutions, WhiteCap is here to help you harness the power of natural
           gas for your needs. Experience the seamless integration of clean
           energy and maximize your energy efficiency with our tailored
-          solutions." showGetStarted="true"
+          solutions."
+        showGetStarted="true"
       />
       {/* <Brand /> */}
-      <Welcome />
-      <News />
-      <Benefits />
+      <Information
+        id="Welcome"
+        data={welcomeData}
+        header="Welcome to WhiteCap"
+        subHeader="Your gateway to the world of natural gas"
+        className="welcome"
+      />      <News />
+      <Information
+        id="Benefits"
+        data={benefitsData}
+        header="Embrace the Power of Natural Gas. Fuel Your Future Today."
+        subHeader=""
+        className=""
+      />
       <Possibility />
       {/* <CTA /> */}
     </div>

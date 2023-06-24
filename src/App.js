@@ -10,7 +10,6 @@ import { Navbar } from "./components";
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
         <div className="gradient-bg">
           <Navbar />
         </div>
@@ -19,7 +18,6 @@ function App() {
           <Route path="/articles/:id" Component={Articles}></Route>
         </Routes>
         <Footer />
-      </div>
     </BrowserRouter>
   );
 }
