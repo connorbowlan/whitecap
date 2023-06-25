@@ -1,6 +1,6 @@
 import "./information.css";
 
-import Feature from "../../components/feature/Feature";
+import InfoFeature from "../../components/infoFeature/InfoFeature";
 import React from "react";
 
 function Benefits({ id, header, subHeader, data, className }) {
@@ -13,7 +13,7 @@ function Benefits({ id, header, subHeader, data, className }) {
 
       <div className="container-x">
         {data.map((item, index) => (
-          <Feature
+          <InfoFeature
             title={item.title}
             text={item.text}
             key={item.title + index}

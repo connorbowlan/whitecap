@@ -1,29 +1,33 @@
 import "./news.css";
 
-import { Natgas1, Natgas2, Natgas3, Natgas4, Natgas5 } from "./imports";
-
-import Article from "../../components/article/Article";
-import React from "react";
+import NewsFeature from "../../components/newsFeature/NewsFeature";
 import { articles } from "../../assets/content";
 
 function News() {
   return (
-    <div className="blog section-padding" id="blog">
-      <div className="blog"></div>
-      <div className="blog-container">
-        <div className="blog-container_groupA">
-          <Article
+    <div className="news section-padding" id="news">
+      <div className="news"></div>
+      <div className="news-container">
+        <div className="news-container_groupA">
+          <NewsFeature
             id={articles[0].id}
             imgUrl={articles[0].img}
             date={articles[0].date}
-            text={articles[0].title}
+            title={articles[0].title}
+            content={articles[0].content}
           />
         </div>
-        <div className="blog-container_groupB">
+        <div className="news-container_groupB">
           {articles.map((item) => {
             if (item.id !== 1)
               return (
-                <Article id={item.id} imgUrl={item.img} date={item.date} text={item.title} />
+                <NewsFeature
+                  id={item.id}
+                  imgUrl={item.img}
+                  date={item.date}
+                  title={item.title}
+                  content={item.content}
+                />
               );
           })}
         </div>

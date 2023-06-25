@@ -6,8 +6,8 @@ export const navLinks = [
     },
     {
         id: 2,
-        name: "Information",
-        path: "/#Information"
+        name: "About",
+        path: "/#About"
     },
     {
         id: 3,

@@ -1,4 +1,4 @@
-.blog-container_article {
+.news-container_article {
   width: 100%;
   height: 100%;
   display: flex;
@@ -6,18 +6,18 @@
   background: var(--color-footer);
 }
 
-.blog-container_article-image {
+.news-container_article-image {
   width: 100%;
   height: 100%;
   background: var(--color-bg);
 }
 
-.blog-container_article-image img {
+.news-container_article-image img {
   width: 100%;
   height: 100%;
 }
 
-.blog-container_article-content {
+.news-container_article-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -25,39 +25,41 @@
   height: 100%;
 }
 
-.blog-container_article-content p {
+.news-feature .date {
+  font-weight: 400;
+}
+
+.news-container_article-content p {
   font-family: var(--font-family);
-  font-size: 11.65px;
-  font-weight: 700;
+  font-size: 1rem;
   line-height: 35px;
   color: #fff;
 }
 
-.blog-container_article-content h3 {
+.news-container_article-content h3 {
   font-family: var(--font-family);
-  font-size: 25.11px;
+  font-size: 2rem;
   font-weight: 800;
-  line-height: 30.30px;
   color: #fff;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   cursor: pointer;
 }
 
-.blog-container_article-content p:last-child {
+.news-container_article-content p:last-child {
   cursor: pointer;
 }
 
 /* Add the following CSS styles for the on-hover underline effect */
-.blog-container_article-content a.article-link {
+.news-container_article-content a.article-link {
   text-decoration: none;
 }
 
-.blog-container_article-content a.article-link:hover {
+.news-container_article-content a.article-link:hover {
   text-decoration: underline;
 }
 
 @media screen and (max-width: 550px) {
-  .blog-container_article-content h3 {
+  .news-container_article-content h3 {
     font-size: 18px;
     line-height: 25px;
   }

@@ -16,7 +16,7 @@ function Home() {
       />
       {/* <Brand /> */}
       <Information
-        id="Welcome"
+        id="About"
         data={welcomeData}
         header="Welcome to WhiteCap"
         subHeader="Your gateway to the world of natural gas"

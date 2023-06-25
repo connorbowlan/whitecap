@@ -1,6 +1,6 @@
-import "./feature.css";
+import "./infoFeature.css";
 
-function Feature({ title, text }) {
+function InfoFeature({ title, text }) {
   return (
     <div className="features-container-feature">
       <div className="features-container-feature-title">
@@ -14,4 +14,4 @@ function Feature({ title, text }) {
   );
 }
 
-export default Feature;
+export default InfoFeature;
