@@ -1,6 +1,7 @@
 import "./footer.css";
 
 import logo from "../../assets/logo.png";
+import { navLinks } from "../../assets/layoutConstants";
 
 const Footer = () => (
   <footer className="section-padding">
@@ -16,11 +17,14 @@ const Footer = () => (
       </div>
 
       <div>
-        <h4>Links</h4>
-        <p>Over ons</p>
-        <p>Social Media</p>
-        <p>Counters</p>
-        <p>Contact</p>
+        <h4>Navigation</h4>
+        <ul>
+          {navLinks.map((item) => (
+            <li key={item.id}>
+              <a href={item.path}>{item.name}</a>
+            </li>
+          ))}
+        </ul>
       </div>
 
       <div>
@@ -30,7 +34,7 @@ const Footer = () => (
       </div>
 
       <div>
-        <h4>Get in touch</h4>
+        <h4>Get in Touch</h4>
         <p>5030 N May Ave #123, Oklahoma CIty, OK 73112</p>
         <p>405-384-7189</p>
         <p>
@@ -40,7 +44,7 @@ const Footer = () => (
     </div>
 
     <div className="footer-copyright">
-      <p>Copyright 2023 WhiteCap. All rights reserved.</p>
+      <span>Copyright 2023 WhiteCap. All rights reserved.</span>
     </div>
   </footer>
 );

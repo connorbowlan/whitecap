@@ -5,7 +5,7 @@ import { articles } from "../../assets/content";
 
 function News() {
   return (
-    <div className="news section-padding" id="news">
+    <div id="News" className="news section-padding">
       <div className="news"></div>
       <div className="news-container">
         <div className="news-container_groupA">
