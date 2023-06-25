@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.d303d397.css",
-    "main.js": "/static/js/main.491debcc.js",
-    "static/media/Natgas5.jpg": "/static/media/Natgas5.bc37a11728874efc39e9.jpg",
+    "main.css": "/static/css/main.b635a712.css",
+    "main.js": "/static/js/main.ca625785.js",
     "static/media/logo.png": "/static/media/logo.a9e3eaf5df41c02f4631.png",
     "static/media/field.jpeg": "/static/media/field.b70beb35d3982c78d628.jpeg",
+    "static/media/Natgas5.jpg": "/static/media/Natgas5.bf216be1451791e0c1e1.jpg",
     "static/media/Natgas3.jpg": "/static/media/Natgas3.c2f04439f897f443d5e3.jpg",
     "static/media/Natgas1.jpg": "/static/media/Natgas1.d53b2cc6ca0846e31d5d.jpg",
     "static/media/Natgas4.jpg": "/static/media/Natgas4.8cbe9bfc8f9223572276.jpg",
     "static/media/Natgas2.jpg": "/static/media/Natgas2.e4db8f73a32c72dd4557.jpg",
     "index.html": "/index.html",
-    "main.d303d397.css.map": "/static/css/main.d303d397.css.map",
-    "main.491debcc.js.map": "/static/js/main.491debcc.js.map"
+    "main.b635a712.css.map": "/static/css/main.b635a712.css.map",
+    "main.ca625785.js.map": "/static/js/main.ca625785.js.map"
   },
   "entrypoints": [
-    "static/css/main.d303d397.css",
-    "static/js/main.491debcc.js"
+    "static/css/main.b635a712.css",
+    "static/js/main.ca625785.js"
   ]
 }
