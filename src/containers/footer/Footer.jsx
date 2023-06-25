@@ -1,6 +1,6 @@
 import "./footer.css";
-import { Link } from "react-router-dom";
 
+import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import { navLinks } from "../../assets/layoutConstants";
 
@@ -42,7 +42,9 @@ const Footer = () => (
 
       <div>
         <h4>Get in Touch</h4>
-        <p>5030 N May Ave #123, Oklahoma CIty, OK 73112</p>
+        <p>5030 N May Ave #123
+          <br/>
+          Oklahoma CIty, OK 73112</p>
         <p>405-384-7189</p>
         <p>
           <a href="mailto:info@wcngs.com">info@wcngs.com</a>

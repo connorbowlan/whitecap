@@ -16,13 +16,13 @@ export const navLinks = [
     },
     {
         id: 4,
-        name: "FAQ",
-        path: "/faq"
+        name: "Natural Gas",
+        path: "/#NaturalGas"
     },
     {
         id: 5,
-        name: "Natural Gas",
-        path: "/#NaturalGas"
+        name: "FAQ",
+        path: "/faq"
     },
 ];
 

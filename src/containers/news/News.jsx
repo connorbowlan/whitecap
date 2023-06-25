@@ -5,33 +5,18 @@ import { articles } from "../../assets/content";
 
 function News() {
   return (
-    <div id="News" className="news section-padding">
-      <div className="news"></div>
-      <div className="news-container">
-        <div className="news-container_groupA">
+    <div id="News" className="section-padding">
+      {articles.map((item) => {
+        return (
           <NewsFeature
-            id={articles[0].id}
-            imgUrl={articles[0].img}
-            date={articles[0].date}
-            title={articles[0].title}
-            content={articles[0].content}
+            id={item.id}
+            imgUrl={item.img}
+            date={item.date}
+            title={item.title}
+            content={item.content}
           />
-        </div>
-        <div className="news-container_groupB">
-          {articles.map((item) => {
-            if (item.id !== 1)
-              return (
-                <NewsFeature
-                  id={item.id}
-                  imgUrl={item.img}
-                  date={item.date}
-                  title={item.title}
-                  content={item.content}
-                />
-              );
-          })}
-        </div>
-      </div>
+        );
+      })}
     </div>
   );
 }
