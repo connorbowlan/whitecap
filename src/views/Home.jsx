@@ -1,4 +1,4 @@
-import { Hero, Information, News, Possibility, Welcome } from "../containers";
+import { Hero, Info, News, Possibility, Welcome } from "../containers";
 import { benefitsData, welcomeData } from "../assets/content";
 
 function Home() {
@@ -15,14 +15,15 @@ function Home() {
         showGetStarted="true"
       />
       {/* <Brand /> */}
-      <Information
+      <Info
         id="About"
         data={welcomeData}
         header="Welcome to WhiteCap"
         subHeader="Your gateway to the world of natural gas"
         className="welcome"
-      />      <News />
-      <Information
+      />{" "}
+      <News />
+      <Info
         id="Benefits"
         data={benefitsData}
         header="Embrace the Power of Natural Gas. Fuel Your Future Today."

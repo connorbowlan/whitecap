@@ -3,23 +3,25 @@ import { Link } from "react-router-dom";
 
 function NewsFeature({ id, imgUrl, date, title, content }) {
   return (
-    <div className="news-container_article">
-      <div className="news-container_article-image">
+    <div className="news-feature">
+      <Link to={`articles/${id}`}>
         <img src={imgUrl} alt="news_image" />
-      </div>
-      <div className="news-container_article-content">
+      </Link>
+      <div className="content">
         <div>
-          <p className="date">{date}</p>
-          <h3>{title}</h3>
+          <span className="bold">{date}</span>
+          <h3>
+            <Link to={`articles/${id}`}>{title}</Link>
+          </h3>
           <p
             dangerouslySetInnerHTML={{
-              __html: `${content.substring(0, 300)}...`,
+              __html: `${content.substring(0, 200)}...`,
             }}
           />
         </div>
-        <p>
+        <span className="read-full">
           <Link to={`articles/${id}`}>Read Full Article</Link>
-        </p>
+        </span>
       </div>
     </div>
   );

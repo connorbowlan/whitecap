@@ -1,9 +1,9 @@
-import "./information.css";
+import "./info.css";
 
 import InfoFeature from "../../components/infoFeature/InfoFeature";
 import React from "react";
 
-function Benefits({ id, header, subHeader, data, className }) {
+function Info({ id, header, subHeader, data, className }) {
   return (
     <div id={id} className={`info section-padding ${className}`}>
       <div className="heading">
@@ -24,4 +24,4 @@ function Benefits({ id, header, subHeader, data, className }) {
   );
 }
 
-export default Benefits;
+export default Info;

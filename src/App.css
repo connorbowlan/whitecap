@@ -15,6 +15,14 @@ a {
   text-decoration: none;
 }
 
+.bold {
+  font-weight: 500;
+}
+
+.bolder {
+  font-weight: 700;
+}
+
 .gradient-bg {
   background: -moz-radial-gradient(
     circle at 3% 25%,

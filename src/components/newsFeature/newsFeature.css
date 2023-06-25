@@ -1,43 +1,23 @@
-.news-container_article {
-  width: 100%;
-  height: 100%;
+.news-feature {
+  background: var(--color-footer);
+  color: #ffffff;
   display: flex;
   flex-direction: column;
-  background: var(--color-footer);
+  height: 100%;
 }
 
-.news-container_article-image {
+.news-feature img {
   width: 100%;
   height: 100%;
   background: var(--color-bg);
 }
 
-.news-container_article-image img {
+.news-feature img {
   width: 100%;
   height: 100%;
 }
 
-.news-container_article-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 1rem 1.5rem;
-  height: 100%;
-}
-
-.news-feature .date {
-  font-weight: 400;
-}
-
-.news-container_article-content p {
-  font-family: var(--font-family);
-  font-size: 1rem;
-  line-height: 35px;
-  color: #fff;
-}
-
-.news-container_article-content h3 {
-  font-family: var(--font-family);
+.news-feature h3 {
   font-size: 2rem;
   font-weight: 800;
   color: #fff;
@@ -45,22 +25,28 @@
   cursor: pointer;
 }
 
-.news-container_article-content p:last-child {
-  cursor: pointer;
-}
-
-/* Add the following CSS styles for the on-hover underline effect */
-.news-container_article-content a.article-link {
-  text-decoration: none;
-}
-
-.news-container_article-content a.article-link:hover {
+.news-feature h3 a:hover {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 550px) {
-  .news-container_article-content h3 {
-    font-size: 18px;
-    line-height: 25px;
-  }
+.news-feature p,
+.news-feature span {
+  font-size: 1rem;
+  line-height: 35px;
+}
+
+.news-feature .content {
+  padding: 2rem;
+}
+
+.news-feature .read-full a {
+  background: #1d354e;
+  display: block;
+  margin-top: 1rem;
+  padding: 0.6rem;
+  text-align: center;
+}
+
+.news-feature .read-full a:hover {
+  background: #364e67;
 }
