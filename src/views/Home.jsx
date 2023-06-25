@@ -21,7 +21,7 @@ function Home() {
         header="Welcome to WhiteCap"
         subHeader="Your gateway to the world of natural gas"
         className="welcome"
-      />{" "}
+      />
       <News />
       <Info
         id="Benefits"

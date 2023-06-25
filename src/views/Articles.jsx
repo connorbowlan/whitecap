@@ -2,7 +2,7 @@ import { Hero } from "../containers";
 import { articles } from "../assets/content";
 import { useParams } from "react-router-dom";
 
-function Article() {
+function Articles() {
   const { id } = useParams();
   const article = articles.find((x) => x.id == id);
 
@@ -23,4 +23,4 @@ function Article() {
   );
 }
 
-export default Article;
+export default Articles;
