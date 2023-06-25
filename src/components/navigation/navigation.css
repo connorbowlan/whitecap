@@ -85,7 +85,7 @@ nav .logo img {
 }
 
 @media screen and (max-width: 550px) {
-  ..desktop-menubar {
+  .desktop-menubar {
     padding: 2rem;
   }
 }

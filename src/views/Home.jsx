@@ -24,7 +24,7 @@ function Home() {
       />
       <News />
       <Info
-        id="Benefits"
+        id="NaturalGas"
         data={benefitsData}
         header="Embrace the Power of Natural Gas. Fuel Your Future Today."
         subHeader=""

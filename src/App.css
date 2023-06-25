@@ -1,13 +1,32 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
 }
 
 body {
   background: var(--color-bg);
   font-family: "Manrope", sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+h3 {
+  margin-bottom: 1.6rem;
 }
 
 a {
@@ -21,6 +40,10 @@ a {
 
 .bolder {
   font-weight: 700;
+}
+
+ol {
+  margin-bottom: 1rem;
 }
 
 .gradient-bg {
@@ -78,11 +101,11 @@ a {
 }
 
 .section-padding {
-  padding: 4rem 6rem;
+  padding: 4rem 6rem 4rem 6rem;
 }
 
 .section-margin {
-  margin: 4rem 6rem;
+  margin: 4rem 6rem 4rem 6rem;
 }
 
 .scale-up-center {
@@ -113,7 +136,7 @@ a {
   }
 }
 
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
   .section-padding {
     padding: 4rem;
   }
@@ -131,4 +154,4 @@ a {
   .section-margin {
     margin: 4rem 2rem;
   }
-}
+} */

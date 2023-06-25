@@ -1,4 +1,5 @@
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 import logo from "../../assets/logo.png";
 import { navLinks } from "../../assets/layoutConstants";
@@ -29,8 +30,14 @@ const Footer = () => (
 
       <div>
         <h4>Company</h4>
-        <p>Terms & Conditions </p>
-        <p>Privacy Policy</p>
+        <ul>
+          <li>
+            <Link to="/t&c">Terms & Conditions</Link>
+          </li>
+          <li>
+            <Link to="/privacy-policy">Privacy Policy</Link>
+          </li>
+        </ul>
       </div>
 
       <div>

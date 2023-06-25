@@ -14,5 +14,15 @@ export const navLinks = [
         name: "News",
         path: "/#News"
     },
+    {
+        id: 4,
+        name: "FAQ",
+        path: "/faq"
+    },
+    {
+        id: 5,
+        name: "Natural Gas",
+        path: "/#NaturalGas"
+    },
 ];
 
