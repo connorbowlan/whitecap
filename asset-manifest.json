@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6439ea51.css",
-    "main.js": "/static/js/main.96c0704b.js",
+    "main.css": "/static/css/main.59e442f9.css",
+    "main.js": "/static/js/main.15bf23c2.js",
     "static/media/Natgas5.jpg": "/static/media/Natgas5.bc37a11728874efc39e9.jpg",
     "static/media/logo.png": "/static/media/logo.a9e3eaf5df41c02f4631.png",
     "static/media/field.jpeg": "/static/media/field.b70beb35d3982c78d628.jpeg",
@@ -10,11 +10,11 @@
     "static/media/Natgas4.jpg": "/static/media/Natgas4.8cbe9bfc8f9223572276.jpg",
     "static/media/Natgas2.jpg": "/static/media/Natgas2.e4db8f73a32c72dd4557.jpg",
     "index.html": "/index.html",
-    "main.6439ea51.css.map": "/static/css/main.6439ea51.css.map",
-    "main.96c0704b.js.map": "/static/js/main.96c0704b.js.map"
+    "main.59e442f9.css.map": "/static/css/main.59e442f9.css.map",
+    "main.15bf23c2.js.map": "/static/js/main.15bf23c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.6439ea51.css",
-    "static/js/main.96c0704b.js"
+    "static/css/main.59e442f9.css",
+    "static/js/main.15bf23c2.js"
   ]
 }
