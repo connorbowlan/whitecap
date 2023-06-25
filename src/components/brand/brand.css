@@ -1,11 +1,11 @@
-.whitecap__brand {
+.brand {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.whitecap__brand div {
+.brand div {
     flex: 1;
     max-width: 150px;
     min-width: 120px;

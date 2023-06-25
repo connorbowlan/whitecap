@@ -1,24 +1,31 @@
-import React from 'react';
+import "./App.css";
 
-import { Footer, Blog, Possibility, Features, Whitecap, Header } from './containers';
-import { CTA, Brand, Navbar } from './components';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import './App.css';
+import Articles from "./views/Articles";
+import FAQ from "./views/FAQ";
+import { Footer } from "./containers";
+import Home from "./views/Home";
+import { Navbar } from "./components";
+import PrivacyPolicy from "./views/PrivacyPolicy";
+import TermsConditions from "./views/TermsConditions";
 
-const App = () => (
-  <div className="App">
-    <div className="gradient__bg">
-      <Navbar />
-      <Header />
-    </div>
-    <Brand />
-    <Whitecap />
-    <Features />
-    <Possibility />
-    <CTA />
-    <Blog />
-    <Footer />
-  </div>
-);
+function App() {
+  return (
+    <BrowserRouter>
+      <div className="gradient-bg">
+        <Navbar />
+      </div>
+      <Routes>
+        <Route path="/" Component={Home}></Route>
+        <Route path="/articles/:id" Component={Articles}></Route>
+        <Route path="/t&c" Component={TermsConditions} />
+        <Route path="/privacy-policy" Component={PrivacyPolicy} />
+        <Route path="/faq" Component={FAQ} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+  );
+}
 
 export default App;
