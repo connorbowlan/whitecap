@@ -1,4 +1,13 @@
 .news {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
+
+@media screen and (max-width: 550px) {
+    .news {
+        flex-direction: column;
+        gap: 0;
+    }
+  }
+  
