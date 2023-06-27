@@ -1,8 +1,8 @@
-import Natgas1 from "./Natgas1.jpg";
-import Natgas2 from "./Natgas2.jpg";
-import Natgas3 from "./Natgas3.jpg";
-import Natgas4 from "./Natgas4.jpg";
-import Natgas5 from "./Natgas5.jpg";
+import Natgas1 from "../images/news/pipeline.jpg";
+import Natgas2 from "../images/news/sci-fi-well.jpg";
+import Natgas3 from "../images/news/well.jpg";
+import Natgas4 from "../images/news/safety-man.jpg";
+import Natgas5 from "../images/news/wheat-field-sunset.jpg";
 
 export const articles = [
   {

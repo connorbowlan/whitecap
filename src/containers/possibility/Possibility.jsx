@@ -1,4 +1,5 @@
 import "./possibility.css";
+
 import possibilityImage from "../../assets/field.jpeg";
 
 function Possibility() {
