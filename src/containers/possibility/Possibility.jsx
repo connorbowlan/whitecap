@@ -1,12 +1,12 @@
 import "./possibility.css";
 
-import possibilityImage from "../../assets/field.jpeg";
+import windmill from "../../images/possibility/windmill.jpeg";
 
 function Possibility() {
   return (
     <div id="Possibility" className="possibility section-padding">
       <div>
-        <img src={possibilityImage} alt="possibility" />
+        <img src={windmill} alt="Windmill" />
       </div>
       <div className="content">
         <h1 className="gradient-text">Unleash the Potential of Natural Gas</h1>
