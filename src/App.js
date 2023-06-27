@@ -2,13 +2,13 @@ import "./App.css";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Articles from "./views/Articles";
-import FAQ from "./views/FAQ";
+import Articles from "./pages/Articles";
+import FAQ from "./pages/FAQ";
 import { Footer } from "./containers";
-import Home from "./views/Home";
+import Home from "./pages/Home";
 import { Navbar } from "./components";
-import PrivacyPolicy from "./views/PrivacyPolicy";
-import TermsConditions from "./views/TermsConditions";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsConditions from "./pages/TermsConditions";
 
 function App() {
   return (

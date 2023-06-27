@@ -5,7 +5,7 @@ import { articles } from "../../assets/content";
 
 function News() {
   return (
-    <div id="News" className="section-padding">
+    <div id="News" className="news section-padding">
       {articles.map((item) => {
         return (
           <NewsFeature

@@ -4,7 +4,7 @@ import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 
 import HorziontalNav from "./HorizontalNav";
 import VerticalNav from "./VerticalNav";
-import logo from "../../assets/logo.png";
+import logo from "../../images/layout/logo.png";
 import { useState } from "react";
 
 function Navbar() {
@@ -17,11 +17,6 @@ function Navbar() {
       </div>
 
       <HorziontalNav />
-
-      {/* <div className="navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
-      </div> */}
 
       <div className="mobile-menu-icon">
         {toggleMenu ? (

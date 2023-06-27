@@ -1,13 +1,13 @@
-import Natgas1 from "./Natgas1.jpg";
-import Natgas2 from "./Natgas2.jpg";
-import Natgas3 from "./Natgas3.jpg";
-import Natgas4 from "./Natgas4.jpg";
-import Natgas5 from "./Natgas5.jpg";
+import pipeline from "../images/news/pipeline.jpg";
+import safetyMan from "../images/news/safety-man.jpg";
+import sciFiWell from "../images/news/sci-fi-well.jpg";
+import well from "../images/news/well.jpg";
+import wheatFieldSunset from "../images/news/wheat-field-sunset.jpg";
 
 export const articles = [
   {
     id: 1,
-    img: Natgas1,
+    img: pipeline,
     date: "March 26, 2023",
     title: "Discover the Latest Trends in Natural Gas Industry",
     content:
@@ -15,7 +15,7 @@ export const articles = [
   },
   {
     id: 2,
-    img: Natgas2,
+    img: sciFiWell,
     date: "Jan 12, 2023",
     title: "How Natural Gas Revolutionizes Energy Production",
     content:
@@ -23,7 +23,7 @@ export const articles = [
   },
   {
     id: 3,
-    img: Natgas3,
+    img: well,
     date: "February 7, 2023",
     title: "The Importance of Natural Gas in Sustainable Development",
     content:
@@ -31,7 +31,7 @@ export const articles = [
   },
   {
     id: 4,
-    img: Natgas4,
+    img: safetyMan,
     date: "May 13, 2023",
     title: "The Future of Natural Gas: Innovations and Opportunities",
     content:
@@ -39,7 +39,7 @@ export const articles = [
   },
   {
     id: 5,
-    img: Natgas5,
+    img: wheatFieldSunset,
     date: "April 6, 2023",
     title: "Unlocking the Potential of Natural Gas for a Greener Future",
     content:
