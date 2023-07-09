@@ -28,3 +28,6 @@ function NewsFeature({ id, imgUrl, date, title, content }) {
 }
 
 export default NewsFeature;
+
+
+
