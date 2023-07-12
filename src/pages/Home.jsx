@@ -1,6 +1,8 @@
 import { Hero, Info, News, Possibility, Welcome } from "../containers";
 import { benefitsData, welcomeData } from "../assets/content";
 
+import { Faq } from "../components";
+
 function Home() {
   return (
     <div>
@@ -32,6 +34,7 @@ function Home() {
       />
       <Possibility />
       {/* <CTA /> */}
+      <Faq />
     </div>
   );
 }
