@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b61b7bb5.css",
-    "main.js": "/static/js/main.c98e00bb.js",
+    "main.js": "/static/js/main.eb671aef.js",
     "static/media/logo.png": "/static/media/logo.a9e3eaf5df41c02f4631.png",
     "static/media/windmill.jpeg": "/static/media/windmill.b70beb35d3982c78d628.jpeg",
     "static/media/wheat-field-sunset.jpg": "/static/media/wheat-field-sunset.bf216be1451791e0c1e1.jpg",
@@ -11,10 +11,10 @@
     "static/media/sci-fi-well.jpg": "/static/media/sci-fi-well.e4db8f73a32c72dd4557.jpg",
     "index.html": "/index.html",
     "main.b61b7bb5.css.map": "/static/css/main.b61b7bb5.css.map",
-    "main.c98e00bb.js.map": "/static/js/main.c98e00bb.js.map"
+    "main.eb671aef.js.map": "/static/js/main.eb671aef.js.map"
   },
   "entrypoints": [
     "static/css/main.b61b7bb5.css",
-    "static/js/main.c98e00bb.js"
+    "static/js/main.eb671aef.js"
   ]
 }
