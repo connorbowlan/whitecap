@@ -1,6 +1,6 @@
 import { Hero } from "../containers";
 
-function FAQ() {
+function Faq() {
   return (
     <div>
       <Hero
@@ -134,4 +134,4 @@ function FAQ() {
   );
 }
 
-export default FAQ;
+export default Faq;
