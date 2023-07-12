@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f0e240b.css",
-    "main.js": "/static/js/main.bc8bbb6e.js",
+    "main.css": "/static/css/main.b61b7bb5.css",
+    "main.js": "/static/js/main.c98e00bb.js",
     "static/media/logo.png": "/static/media/logo.a9e3eaf5df41c02f4631.png",
     "static/media/windmill.jpeg": "/static/media/windmill.b70beb35d3982c78d628.jpeg",
     "static/media/wheat-field-sunset.jpg": "/static/media/wheat-field-sunset.bf216be1451791e0c1e1.jpg",
@@ -10,11 +10,11 @@
     "static/media/safety-man.jpg": "/static/media/safety-man.8cbe9bfc8f9223572276.jpg",
     "static/media/sci-fi-well.jpg": "/static/media/sci-fi-well.e4db8f73a32c72dd4557.jpg",
     "index.html": "/index.html",
-    "main.2f0e240b.css.map": "/static/css/main.2f0e240b.css.map",
-    "main.bc8bbb6e.js.map": "/static/js/main.bc8bbb6e.js.map"
+    "main.b61b7bb5.css.map": "/static/css/main.b61b7bb5.css.map",
+    "main.c98e00bb.js.map": "/static/js/main.c98e00bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f0e240b.css",
-    "static/js/main.bc8bbb6e.js"
+    "static/css/main.b61b7bb5.css",
+    "static/js/main.c98e00bb.js"
   ]
 }
