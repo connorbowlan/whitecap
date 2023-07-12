@@ -3,7 +3,6 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Articles from "./pages/Articles";
-import Faq from "./pages/Faq";
 import { Footer } from "./containers";
 import Home from "./pages/Home";
 import { Navbar } from "./components";
@@ -21,7 +20,6 @@ function App() {
         <Route path="/articles/:id" Component={Articles}></Route>
         <Route path="/t&c" Component={TermsConditions} />
         <Route path="/privacy-policy" Component={PrivacyPolicy} />
-        <Route path="/faq" Component={Faq} />
       </Routes>
       <Footer />
     </BrowserRouter>

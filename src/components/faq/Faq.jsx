@@ -1,8 +1,8 @@
-import { Hero } from "../containers";
+import { Hero } from "../../containers";
 
 function Faq() {
   return (
-    <div>
+    <div id="Faq">
       <Hero
         title="Frequently Asked Questions"
         content=""
