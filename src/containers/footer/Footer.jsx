@@ -37,9 +37,9 @@ const Footer = () => (
       <div>
         <h4>Get in Touch</h4>
         <p>
-          5030 N May Ave #123
+          3030  NW Expressway, Suite 300, #734
           <br />
-          Oklahoma CIty, OK 73112
+          Oklahoma City, OK 73112
         </p>
         <p>405-384-7189</p>
         <p>
