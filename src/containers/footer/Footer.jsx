@@ -43,7 +43,7 @@ const Footer = () => (
         </p>
         <p>405-384-7189</p>
         <p>
-          <a href="mailto:info@wcngs.com">info@wcngs.com</a>
+          <a href="mailto:dustin@wcngs.com">dustin@wcngs.com</a>
         </p>
       </div>
     </div>
